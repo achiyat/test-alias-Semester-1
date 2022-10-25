@@ -1,0 +1,105 @@
+.flexbox-conteiner1 {
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+
+.flexbox-conteiner2 {
+  display: grid;
+  grid-template-rows: 50px 50px 50px;
+  grid-template-columns: 34% 33% 33%;
+  grid-template-areas:
+    "header header header"
+    "nav article aside"
+    "footer footer footer";
+  gap: 0px;
+}
+
+.box2-1 {
+  grid-area: header;
+  background-color: lightblue;
+}
+
+.box2-2 {
+  grid-area: nav;
+  background-color: yellow;
+}
+
+.box2-3 {
+  grid-area: article;
+  background-color: brown;
+}
+
+.box2-4 {
+  grid-area: aside;
+  background-color: blue;
+}
+
+.box2-5 {
+  grid-area: footer;
+  background-color: blueviolet;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
+
+table,
+td,
+th {
+  border: 2px solid;
+  border-collapse: collapse;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.flexbox-conteiner3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 216, 236);
+  height: 400px;
+  width: 400px;
+}
+
+.flexbox-conteiner4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 216, 236);
+  height: 400px;
+  width: 400px;
+}
+
+.mybox {
+  width: 50px;
+  height: 30px;
+}
+
+.box1 {
+  background: yellow;
+}
+
+.box2 {
+  background: red;
+}
+
+.box3 {
+  background: green;
+}
+
+.box4 {
+  background: blueviolet;
+}
+
+.box5 {
+  background: blue;
+}
